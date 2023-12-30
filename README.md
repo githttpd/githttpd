@@ -18,6 +18,10 @@ Harness our Docker image to construct an efficient Git server for your team, sim
 
 ## quickstart
 
+**[Dockerfile](https://github.com/githttpd/githttpd/blob/main/Dockerfile)**
+
+**[githttpd/githttpd@github](https://github.com/githttpd/githttpd)**
+
 ```bash
 docker run -d -v /path/to/local/git/repositories/directory:/opt/git-server githttpd:latest
 ```
