@@ -24,7 +24,7 @@ Harness our Docker image to construct an efficient Git server for your team, sim
 **[githttpd/githttpd@github](https://github.com/githttpd/githttpd)**
 
 ```bash
-docker run -d -v /path/to/local/git/repositories/directory:/opt/git-server githttpd:latest
+docker run -d -v /path/to/local/git/repositories/directory:/opt/git-server githttpd/githttpd:latest
 ```
 
 - `-d` flag runs the container in detached mode (in the background).
