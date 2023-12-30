@@ -29,7 +29,7 @@ docker run -d -v /path/to/local/git/repositories/directory:/opt/git-server githt
 
 - `-d` flag runs the container in detached mode (in the background).
 - `-v /path/to/local/git/repositories/directory:/path/inside/container` associates the `/path/to/local/git/repositories/directory` directory on your local host with the `/path/inside/container` directory inside the container.
-- `githttpd:latest` represents the name of the Docker image.
+- `githttpd/githttpd:latest` represents the name of the Docker image.
 
 then
 ```bash
